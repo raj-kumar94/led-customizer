@@ -33,6 +33,8 @@ class App extends Component {
 	render() {
 
 		const { text, fonts, selected_font, is_font_modal_open } = this.state;
+		const texts = text.split('\n');
+		console.log({texts})
 
 		return (
 			<div className="customizer-app">
@@ -42,7 +44,15 @@ class App extends Component {
 						<button className="">OFF</button>
 					</div>
 	
-				<span className="glow main-text" style={{fontFamily:selected_font}}>{text}</span>
+					<div className="preview__text main-text">
+					{
+						texts.map((t, index) => {
+							return (
+								<span key={`main-text-${index}`} className="glow" style={{fontFamily:selected_font}}>{t}</span>
+							)
+						})
+					}
+					</div>
 				</div>
 	
 				<Editor text={text} handleTextChange={this.handleTextChange} fonts={fonts} selected_font={selected_font} is_font_modal_open={is_font_modal_open} handleFontModalOpenClose={this.handleFontModalOpenClose} handleFontSelection={this.handleFontSelection} />
