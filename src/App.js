@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Editor from './components/Editor';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+
+	state = {
+        text: 'Hello World!'
+    }
+
+    handleTextChange = (event) => {
+        this.setState({text: event.currentTarget.value});
+	}
+	
+	render() {
+
+		const { text } = this.state;
+
+		return (
+			<div className="customizer-app">
+				<div className="canvas-container">
+					<div className="preview__controls-item preview__controls-power">
+						<button className="">ON</button> 
+						<button className="">OFF</button>
+					</div>
+	
+				<span className="glow main-text">{text}</span>
+				</div>
+	
+				<Editor text={text} handleTextChange={this.handleTextChange} />
+			</div>
+		);
+	}
 }
 
 export default App;
