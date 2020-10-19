@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/led-customizer/static/css/main.30b7e36e.chunk.css",
-    "main.js": "/led-customizer/static/js/main.1f84e157.chunk.js",
-    "main.js.map": "/led-customizer/static/js/main.1f84e157.chunk.js.map",
+    "main.css": "/led-customizer/static/css/main.34c7a84f.chunk.css",
+    "main.js": "/led-customizer/static/js/main.8a6049ad.chunk.js",
+    "main.js.map": "/led-customizer/static/js/main.8a6049ad.chunk.js.map",
     "runtime-main.js": "/led-customizer/static/js/runtime-main.88cee94e.js",
     "runtime-main.js.map": "/led-customizer/static/js/runtime-main.88cee94e.js.map",
     "static/js/2.f4c8fd08.chunk.js": "/led-customizer/static/js/2.f4c8fd08.chunk.js",
     "static/js/2.f4c8fd08.chunk.js.map": "/led-customizer/static/js/2.f4c8fd08.chunk.js.map",
     "index.html": "/led-customizer/index.html",
-    "precache-manifest.b2071187eba0eb3a3a088be13fd9935d.js": "/led-customizer/precache-manifest.b2071187eba0eb3a3a088be13fd9935d.js",
+    "precache-manifest.be34c8da17bf310d7b90434dc34b989d.js": "/led-customizer/precache-manifest.be34c8da17bf310d7b90434dc34b989d.js",
     "service-worker.js": "/led-customizer/service-worker.js",
-    "static/css/main.30b7e36e.chunk.css.map": "/led-customizer/static/css/main.30b7e36e.chunk.css.map",
+    "static/css/main.34c7a84f.chunk.css.map": "/led-customizer/static/css/main.34c7a84f.chunk.css.map",
     "static/js/2.f4c8fd08.chunk.js.LICENSE.txt": "/led-customizer/static/js/2.f4c8fd08.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.88cee94e.js",
     "static/js/2.f4c8fd08.chunk.js",
-    "static/css/main.30b7e36e.chunk.css",
-    "static/js/main.1f84e157.chunk.js"
+    "static/css/main.34c7a84f.chunk.css",
+    "static/js/main.8a6049ad.chunk.js"
   ]
 }
