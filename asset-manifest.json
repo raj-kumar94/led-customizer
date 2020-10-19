@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/product-customiser-react/static/css/main.1d44f3a8.chunk.css",
+    "main.js": "/product-customiser-react/static/js/main.a5a21d07.chunk.js",
+    "main.js.map": "/product-customiser-react/static/js/main.a5a21d07.chunk.js.map",
+    "runtime-main.js": "/product-customiser-react/static/js/runtime-main.fcf8b4d1.js",
+    "runtime-main.js.map": "/product-customiser-react/static/js/runtime-main.fcf8b4d1.js.map",
+    "static/js/2.f4c8fd08.chunk.js": "/product-customiser-react/static/js/2.f4c8fd08.chunk.js",
+    "static/js/2.f4c8fd08.chunk.js.map": "/product-customiser-react/static/js/2.f4c8fd08.chunk.js.map",
+    "index.html": "/product-customiser-react/index.html",
+    "precache-manifest.9db42aa654bf5bffbfd2322c65349caa.js": "/product-customiser-react/precache-manifest.9db42aa654bf5bffbfd2322c65349caa.js",
+    "service-worker.js": "/product-customiser-react/service-worker.js",
+    "static/css/main.1d44f3a8.chunk.css.map": "/product-customiser-react/static/css/main.1d44f3a8.chunk.css.map",
+    "static/js/2.f4c8fd08.chunk.js.LICENSE.txt": "/product-customiser-react/static/js/2.f4c8fd08.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fcf8b4d1.js",
+    "static/js/2.f4c8fd08.chunk.js",
+    "static/css/main.1d44f3a8.chunk.css",
+    "static/js/main.a5a21d07.chunk.js"
+  ]
+}
