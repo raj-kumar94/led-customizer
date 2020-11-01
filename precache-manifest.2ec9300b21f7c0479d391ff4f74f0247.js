@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1247f89f67f3d90b6256acd532dce41a",
+    "revision": "245447324a783cff5adb9910c35c267d",
     "url": "/led-customizer/index.html"
   },
   {
-    "revision": "d2e50cb9b36b3668df6d",
-    "url": "/led-customizer/static/css/main.c48c3a65.chunk.css"
+    "revision": "70036fef7f507ae505c9",
+    "url": "/led-customizer/static/css/main.649c0bf2.chunk.css"
   },
   {
     "revision": "4ee003542ed3ab1339bf",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/led-customizer/static/js/2.58f4b30c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d2e50cb9b36b3668df6d",
-    "url": "/led-customizer/static/js/main.860a1194.chunk.js"
+    "revision": "70036fef7f507ae505c9",
+    "url": "/led-customizer/static/js/main.8a781c72.chunk.js"
   },
   {
     "revision": "c748808a16d1977a87cb",
