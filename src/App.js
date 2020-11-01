@@ -75,10 +75,10 @@ class App extends Component {
 		return (
 			<div className="customizer-app">
 				<div className="canvas-container" id="canvas-container">
-					<div className="preview__controls-item preview__controls-power">
+					{/* <div className="preview__controls-item preview__controls-power">
 						<button className="">ON</button> 
 						<button className="">OFF</button>
-					</div>
+					</div> */}
 	
 					<div className="preview__text main-text">
 					{

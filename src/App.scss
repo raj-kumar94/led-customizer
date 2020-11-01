@@ -22,9 +22,9 @@
 	.glow {
 		// font-size: 100px;
 		color: #fff;
-		-webkit-animation: glow 1s ease-in-out infinite alternate;
-		-moz-animation: glow 1s ease-in-out infinite alternate;
-		animation: glow 1s ease-in-out infinite alternate;
+		// -webkit-animation: glow 1s ease-in-out infinite alternate;
+		// -moz-animation: glow 1s ease-in-out infinite alternate;
+		// animation: glow 1s ease-in-out infinite alternate;
 	}
 
 	.canvas-container {
@@ -246,6 +246,7 @@ p.subtitle {
 		width: 50%;
 		position: absolute;
 		right: 10px;
+		cursor: pointer;
 	}
 	
 	.pricing__action {

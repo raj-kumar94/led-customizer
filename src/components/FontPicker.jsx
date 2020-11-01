@@ -17,10 +17,10 @@ export class FontPicker extends Component {
 
                 {
                     is_font_modal_open ? 
-                    <div class="font__modal">
+                    <div className="font__modal">
                         { fonts.map(f => {
                             return ( 
-                                <button onClick={ () => handleFontSelection(f.font_family) } class={`${f.font_family === selected_font ? "is-active": ""}`} style={{fontFamily: f.font_family, fontSize: f.font_size}}>{f.font_family}</button>
+                                <button key={f.font_family} onClick={ () => handleFontSelection(f.font_family) } className={`${f.font_family === selected_font ? "is-active": ""}`} style={{fontFamily: f.font_family, fontSize: f.font_size}}>{f.font_family}</button>
                             )
                         }) }
                     </div>
